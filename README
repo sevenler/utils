@@ -1,0 +1,9 @@
+中文：
+	utils项目是使用java编写的面向android使用的（当然，java se，java ee 开发初了其中的android部分的代码，其他的代码也是能够使用的）常用的类库。其中包括2大部分：
+	1.面向android开发的一些页面特效，当然其中主要是用户自定义的控件的使用。
+	2.常用的utils类，当然这些是纯java编写，这些代码不仅仅在android开发当中可以使用。
+
+English:
+	Utils with Java program is written for the use of the android (of course, except the code who base of android development,other code is be able to use for Java se, Java ee ) common class library. It including 2 party:
+1. Some of the page for android development special effects, of course, the main is user defined control.
+2. Commonly used utils class, of course, these are writeed by Java , it's not only use in android development,but aslo in java se or java ee.
