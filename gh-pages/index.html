@@ -1,0 +1,652 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+
+<title>简历 - 宋红</title>
+
+<!-- Meta -->
+<meta name="description" content="A few lines about yourself">
+<meta name="keywords" content="web,developer,designer,resume" />
+<meta name="author" content="Janet Wagner">
+
+<!-- CSS Stylesheet -->
+<style type="text/css">
+	/*
+Site Name: Nettuts+
+Site URI: http://net.tutsplus.com/
+Description: HTML5 Resume that Includes Schema.org Microdata Tutorial | Demo | Dark Blue
+Version: 1.0
+Author: Janet Wagner
+Author URI:  http://www.WebCodePro.net/
+*/
+
+
+/*  Color Reference
+---------------------------------------------------
+
+Green: #0066cc
+Medium Gray: #dcdcdc
+Light Gray: #eee
+
+*/
+
+
+
+/* Default Styles
+--------------------------------------------------- */
+
+body {
+	margin: 0px;
+	padding: 0px;
+	//background: url("images/bg_dark_blue.png");  
+	background-color:#333333;
+	//background-color: inherit;
+	font-size: 16px; 
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #000;
+}
+
+a:link { 
+	text-decoration: underline;
+	color: #000;
+	font-weight: bold;
+}
+
+a:visited { 
+	text-decoration: underline;
+	color: #000;
+	font-weight: bold;
+}
+
+a:hover { 
+	text-decoration: underline;
+	color: #0066cc;
+	font-weight: bold;
+}
+
+a:active { 
+	text-decoration: underline;
+	color: #000;
+	font-weight: bold;
+}
+
+#wrapper	{
+	width: 965px;
+	margin: 0 auto;	
+}
+
+#content {
+	background-color: #eee;
+	width: 960px;
+	text-align: left;
+	overflow: auto;
+	position: relative;
+	margin: 25px 0px 25px 0px;
+	border: #fff solid 2px;
+}
+
+.clear	{
+	float: none;
+	clear: both;
+	margin: 5px 0px 5px 0px;
+}
+
+
+/* Header
+--------------------------------------------------- */
+
+
+#contact-details .header_1 {
+	float: left;
+	width: 350px;
+	text-align: center;
+	margin: 40px 0px 0px 20px;
+}
+
+#contact-details .header_1 img {
+	border: #fff solid 4px;
+	background: #3469A2; 
+	padding: 16px;
+	margin: 10px 0px 0px 0px;
+}
+
+#contact-details .header_2 {
+	float: left;
+	width: 570px;
+	margin: 40px 0px 0px 10px;
+}
+
+#contact-details .header_2 a {
+	font-weight: normal;
+}
+
+#contact-details  h1	{
+	margin: 0px 0px 0px 20px;
+	font-size: 52px;
+	font-weight: bold;
+}
+
+#contact-details  h3	{
+	margin: 0px 0px 32px 20px;
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+#contact-details ul.info_1	{
+	list-style: none;
+	margin: 0px 0px 0px -12px;
+	font-size: 18px;
+}
+
+#contact-details ul.info_2	{
+	list-style: none;
+	margin: 0px 0px 15px -12px;
+	font-size: 18px;
+}
+
+#contact-details li.address	{
+    background: url("images/home.png") no-repeat;
+	background-position: 0px 0px;
+    padding: 0px 0px 12px 40px;
+}
+
+#contact-details li.phone	{
+    background: url("images/phone.png") no-repeat;
+	background-position: 0px 0px;
+    padding: 0px 0px 12px 40px;
+}
+
+#contact-details li.email	{
+    background: url("images/mail.png") no-repeat;
+	background-position: 0px 0px;
+    padding: 0px 0px 12px 40px;
+}
+
+#contact-details li.site_url	{
+    background: url("images/computer.png") no-repeat;
+	background-position: 0px 2px;
+    padding: 0px 0px 12px 40px;
+}
+#contact-details li.edu	{
+    background: url("images/education.png") no-repeat;
+	background-position: 0px 2px;
+    padding: 0px 0px 12px 40px;
+}
+#contact-details li.qq	{
+    background: url("images/qq.png") no-repeat;
+	background-position: 0px 2px;
+    padding: 0px 0px 12px 40px;
+}
+
+#contact-details li.twitter	{
+    background: url("images/twitter_sm.png") no-repeat;
+	background-position: 0px 0px;
+    padding: 0px 0px 12px 40px;
+}
+
+
+
+/* Main Content
+--------------------------------------------------- */
+
+h2.top	{
+	margin: 0px; 
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+h2	{
+	margin: 40px 0px 0px 0px; 
+	font-size: 22px;
+	font-weight: bold;
+}
+
+
+dl	{
+	margin: 0px 50px 0px 0px;
+}
+
+
+dt	{
+	float: left;
+	width: 200px;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: right;
+}
+
+dd	{
+	width: 620px; 
+	float: right;
+	margin-right: 20px;
+}
+
+dl#contact 	{
+	margin: 0px;
+}
+
+dt#contact 	{
+	margin: 0px;
+}
+
+dd#contact 	{
+	margin: 0px;
+}
+
+p.bus1	{
+	margin: 0px;
+	font-weight: bold;
+	color: #0066cc;
+}
+
+p.edu-info	{
+	margin: 10px 0px 0px 0px;
+	font-weight: bold;
+	color: #0066cc;
+}
+
+p.edu-info a	{
+	color: #000;
+}
+
+p.edu-info a:hover	{
+	color: #0066cc;
+}
+
+p.time	{
+	margin: 0px;
+}
+
+p.summary	{
+	margin: 10px 0px 0px 0px;
+}
+
+
+#skills ul.list1	{	
+	float: left;
+	list-style: none;
+	margin: 0px 0px 0px -40px;
+	width: 250px;
+}
+
+#skills ul.list2	{	
+	float: left;
+	list-style: none;
+	margin: 0px 0px 0px 0px;
+	width: 220px;
+}
+
+#skills li {
+    //background: url("images/bullet_blue.png") no-repeat;
+    list-style-type: disc;
+		background-position: 0px 1px;
+    padding: 0px 0px 0px 5px;
+}
+
+abbr	{
+	border-width: 0px;
+}
+
+
+/* Footer
+--------------------------------------------------- */
+
+#footer	{
+	margin: 60px 40px 0px 40px;
+}
+
+#footer	img {
+	border: 0px;
+}
+
+#footer .footer_content	{
+	width: 800px;
+	overflow: auto;
+	margin: auto;
+	border: #fff solid 2px;
+	background-color: #dcdcdc;
+}
+
+#footer ul.icons_1	{
+	float: left;
+	width: 525px;
+	margin: 15px 10px 10px 15px;
+	padding: 0px;
+}
+
+#footer ul.icons_2	{
+	float: right;
+	width: 100px;
+	margin: 10px 20px 10px 10px;
+	padding: 0px;
+}
+
+#footer .icons_1 li, #footer .icons_2 li { 
+	margin: 0px 0px 0px 7px; 
+	padding: 0px; 
+	list-style-type: none; 
+	display: inline; 
+}
+
+#footer a	{
+	color: #000;
+}
+
+#footer a:hover	{
+	color: #0066cc;
+}
+
+#footer	.credits {
+	float: none;
+	clear: both;
+	margin: 10px 0px 20px 0px;
+	font-size: 12px;
+	text-align: center;
+}
+
+#footer	.credits a	{
+	font-weight: normal;
+}
+
+</style>
+
+<!--[if lt IE 9]> 
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+	<!-- Begin Wrapper -->
+	<div id="wrapper">
+	
+		<!-- Begin Content Area -->
+		<div id="content">
+		
+			<!-- Begin Header -->
+			<header>
+			
+			<!-- Begin Contact Section -->
+			<section id="contact-details">
+				<div itemscope itemtype="http://schema.org/Person">
+				
+					<!-- Begin Profile Image Section -->
+					<div class="header_1">
+						<img  itemprop="image" width="250" height="250" alt="photo" />
+					</div>
+					<!-- End Profile Image Section -->
+				
+					<!-- Begin Profile Information Section -->
+					<div class="header_2">
+					
+					<h1><span itemprop="name">宋红</span></h1>
+					<h3><span itemprop="jobTitle">android开发 - 2年开发经验 - 本科 - 男</span></h3>
+					
+					<!-- Begin PostalAddress Schema -->
+					<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+					<ul class="info_1">
+					<li class="address">
+						<span itemprop="streetAddress">北京市</span>
+						<span itemprop="addressLocality">海淀区</span>
+						<span itemprop="addressRegion">建材西路</span>
+						<span itemprop="postalCode">东一里小区</span>
+						<span itemprop="addressCountry"></span>
+					</li>
+					</ul>
+					</div>
+					<!-- End PostalAddress Schema -->
+					
+					<ul class="info_2">
+						<li class="phone"><span itemprop="telephone">15520038320</span></li>
+						<li class="email"><a href="mailto:songhonggg@163.com" itemprop="email">songhonggg@163.com</a></li>
+						<li class="site_url"><a rel="me" itemprop="url" href="http://my.oschina.net/u/559701" title="http://my.oschina.net/u/559701">http://my.oschina.net/u/559701</a></li>
+						<li class="edu">重庆理工大学,本科,2008-2012</li>
+						<li class="qq">526767863</li>
+						
+					</ul>
+					
+					</div>
+					<!-- End Profile Information Section -->
+				
+				</div>
+			</section>
+			<!-- End Contact Section -->
+			
+			</header>
+			<!-- End Header -->
+			<div class="clear">&nbsp;</div>
+		
+			<!-- Begin Profile Section -->
+			<dl>
+				<dt>求职意向:</dt>
+			<dd>
+			
+			<section class="summary">
+				期望从事方向：	Android工程师 <br />
+				期望工作地区：	北京、重庆、成都 <br />
+			</section>
+			
+			</dd>
+			</dl>
+			<!-- End Profile Section -->
+			<div class="clear">&nbsp;</div>
+		
+			<!-- Begin Skills Section -->
+			<div itemscope itemtype="http://schema.org/ItemList">
+			
+				<dl>
+					<dt itemprop="name">专业技能:</dt>
+					<dd>
+					
+						<section id="skills">
+							<ul class="list1">
+								<li itemprop="itemListElement">
+									<font class="bold">JAVA</font> --我的核心开发语言
+								</li>
+								<li itemprop="itemListElement">
+									<font class="bold">Stucts,Spring,Habernate</font> --基于此框架开发过大型的网站 
+								</li>
+								<li itemprop="itemListElement">
+									<font class="bold">Android</font> --开放、前沿，深爱已久，将长期致力的方向，能胜任应用开发
+								</li>
+							</ul>
+							<ul class="list2">
+								<li itemprop="itemListElement">
+									<font class="bold">SQL Server,MySQL</font> --熟练使用，能满足常用的应用开发
+								</li>
+								<li itemprop="itemListElement">
+									<font class="bold">JSP,HTML,CSS</font> --开发过多个网站，对这些技术非常熟练
+								</li>
+								<li itemprop="itemListElement">
+									<font class="bold">Linux</font> --熟悉常用的命令,能够胜任linux下的开发
+								</li>
+							</ul>
+						</section>
+					
+					</dd>
+				</dl>
+			
+			</div>
+			<!-- End Skills Section -->
+		
+			<div class="clear">&nbsp;</div>
+		
+			<!-- Begin Experience Section -->
+			<dl>
+				<dt>项目经验:</dt>
+			
+				<dd>
+				
+					<section id="experience">
+					
+						<!-- Position #1 -->
+						<div itemscope itemtype="http://schema.org/Organization">
+						
+						<h2 class="top"><span itemprop="jobTitle">Android六子棋游戏</span></h2>
+						<p class="bus1"><span itemprop="name">eclipse + android 2.2 + ubuntu</span></p>
+						<p class="time">2012/02 -- 至今 </p>
+						
+						<p itemprop="description">
+						项目描述：<br />
+							&nbsp &nbsp &nbsp1.实现支持android平台的六子棋游戏，功能包括UI、搜索引擎（人工智能模块，既思考走棋的工作模块）。 <br />
+							&nbsp &nbsp &nbsp2.由于android平台的资源局限性，对六子棋进行优化。<br />
+						</p>
+						
+						</div>
+						
+						<!-- Position #2 -->
+						<div itemscope itemtype="http://schema.org/Organization">
+						
+						<h2><span itemprop="jobTitle">重庆政府采购网</span></h2>
+						<p class="bus1"><span itemprop="name">eclipse + jsp + structs + spring + windows</span></p>
+						<p class="time">2010/10 -- 2011/5</p>
+						
+						<p itemprop="description">
+							责任描述：<br />
+							&nbsp &nbsp &nbsp 负责网站的功能模块(主要有交易模块、商铺模块)的开发 <br />
+							项目描述：<br />
+							&nbsp &nbsp &nbsp 该项目的主要模块是其中的电子交易系统，网址<a href="http://219.153.49.210:7002/" >http://219.153.49.210:7002/</a> <br />
+							其主要功能模块3块：<br />
+							&nbsp &nbsp &nbsp 1.商品、供应商的分类、搜索<br />
+							&nbsp &nbsp &nbsp 2.商品交易的管理<br />
+							&nbsp &nbsp &nbsp 3.供应商商铺的管理，既每个供应商可创建自己主页，可在上面维护自己的商品。<br />
+						</p>
+						
+						</div>
+						
+						<!-- Position #4 -->
+						<div itemscope itemtype="http://schema.org/Organization">
+						
+						<h2><span itemprop="jobTitle">机器博弈六子棋</span></h2>
+						<p class="bus1"><span itemprop="name">visual studio + .net framework + windows</span></p>
+						<p class="time">2009/01 -- 2010/7</p>
+						
+						<p itemprop="description">
+							&nbsp &nbsp &nbsp 该项目是在大学里老师的研究项目，团队有研究生在做研究，本科生负责程序代码的实现。其主要研究目的是通过改进提升程序棋力。<br />
+							&nbsp &nbsp &nbsp 我主要做过2方面的工作：<br />
+							&nbsp &nbsp &nbsp 1.深入学习过棋类博弈的基本数据结构、估值核心、搜索核心。设计过新的估值算法，修改了搜索算法的部分模块。<br />
+							&nbsp &nbsp &nbsp 2.使用windows匿名管道等技术，重新构架已有的六子棋程序，让UI与搜索引擎分离成2个单独的exe执行程序，让UI可动态地加载搜索引擎。测试完成后，在老师的帮助下，将UI作为公共的比赛平台成功提交给了全国人工智能协会。<br />
+						</p>
+						
+						</div>
+					
+					</section>
+				
+				</dd>
+			</dl>
+			<!-- End Experience Section -->
+	
+			<!-- Begin Footer -->
+			<footer id="footer">
+			
+				<!-- Begin Footer Content -->
+				<div class="footer_content">
+				
+					<!-- Begin Social Media and Download Links -->
+					<div itemscope itemtype="http://schema.org/Person">
+						<ul class="icons_1">
+
+						</ul>
+						
+					</div>
+					<!-- End Social Media and Download Links -->
+				
+				</div>
+				<!-- End Footer Content -->
+			
+			</footer>
+			<!-- End Footer -->
+			
+			<div class="clear">&nbsp;</div>
+			
+			
+			<!-- Begin Publications Section -->
+			<dl >
+			<dt>自我评价:</dt>
+			
+			<dd>
+			
+			<section id="publications">
+			
+			<div itemscope itemtype="http://schema.org/Article">
+				<span itemprop="name">
+					&nbsp &nbsp &nbsp 我热爱技术，对技术充满热情，从第一次打印hello，world到完成完整的应用开发，一直都让我兴奋不已，并渴望有进一步的技术突破机会，有朝一日能够从蜗牛变成一头大牛。 <br />
+       		&nbsp &nbsp &nbsp 我热爱团队，并善于交流。我相信个人能力是微不足道的，只有依赖于团队才能更大地发挥个人的力量，只有交流才能挖掘更强大的创造力。因此，我努力在更大论坛、网站交流技术，我相信这样的交流不仅会带给我很多朋友，也会让我的技术得到进步。<br />
+				</span>
+			</div>
+			
+			</section>
+			
+			</dd>
+			</dl>
+			<!-- End Publications Section -->
+		
+			<div class="clear">&nbsp;</div>
+		
+			<!-- Begin Education Section -->
+			<dl>
+				<dt> 工作经验: </dt>
+				<dd>
+					<section id="education">
+						<div itemscope itemtype="http://schema.org/EducationalOrganization">
+							<p class="bus1">
+								<span itemprop="name">重庆理工大学机器博弈实验室</span>
+							</p>
+							<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+								<span itemprop="streetAddress"> 2009/01 -- 2010/10 </span>,
+								<span itemprop="streetAddress"> 15人 </span><br />
+							</div>
+							<p class="summary">
+								<span itemprop="name">&nbsp &nbsp &nbsp 负责子棋博弈程序博弈棋力的改进工作，熟练掌握了各种搜索技术、辅助搜索技术等博弈基本技术方案，同时也掌握了动态链接库以及windows命名管道等技术。在这些技术的学习中，不仅为今后的技术提高打下了基础，同时也总结了一套非常有效地学习方法，并一直指导我今后的学习。</span>
+							</p>
+						</div>
+					</section>
+				</dd>
+				
+				<div class="clear">&nbsp;</div>
+				
+				<dd>
+					<section id="education">
+						<div itemscope itemtype="http://schema.org/EducationalOrganization">
+							<p class="bus1">
+								<span itemprop="name">重庆港澳大家软件公司</span>
+							</p>
+							<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+								<span itemprop="streetAddress"> 2010/10 -- 2011/12 </span>,
+								<span itemprop="streetAddress"> 100人 </span><br />
+							</div>
+							<p class="summary">
+								<span itemprop="name">
+									&nbsp &nbsp &nbsp 做过2个方面的工作：<br />
+									&nbsp &nbsp &nbsp 1.业务系统的开发：包括重庆政府采购网、重庆市水质上报管理系统、重庆市法制系统（包括人员管理系统、文件报备系统）。利用公司的开发平台进行业务系统的开发。<br />
+									&nbsp &nbsp &nbsp 2.升级公司开发平台：对公司开发平台的部分组件进行升级，包括组织架架构和工作流组件。<br />
+									&nbsp &nbsp &nbsp 总结：在开发过程中，熟练掌握了SqlServer、T-Sql、JavaScript、第三方控件、css页面布局、团队工作管理器。同时，对重用组件有深入理解，包括常用的组织架构组件、工作流组件。<br />
+								</span>
+							</p>
+						</div>
+					</section>
+				</dd>
+			</dl>
+			<!-- End Education Section -->
+		
+			<div class="clear">&nbsp;</div>
+		  <div class="clear">&nbsp;</div>
+			
+		
+		</div>
+		<!-- End Content -->
+	
+	</div>
+	<!-- End Wrapper -->
+
+</body>
+</html>
