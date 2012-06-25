@@ -23,12 +23,12 @@ public class CoverFlowActivity extends Activity {
 				R.drawable.header_bottom_list,R.drawable.plasma,R.drawable.splashscreen,R.drawable.wheel,R.drawable.circle_list_view, 
 				R.drawable.hor_list_view,R.drawable.hor_list_scorll,R.drawable.cus_radio_btn,R.drawable.circle_corner,
 				R.drawable.muilt_grade_list,R.drawable.custom_spinner,R.drawable.muilt_table,R.drawable.left_right_slide,
-				R.drawable.fling_gallery};
+				R.drawable.fling_gallery,R.drawable.weixin};
 		final Class<?>[] target={Animation_BeginActivity.class,BookpageActivity.class,CustonActivity.class,DrawerActivity.class,
 				HeaderBottomListActivity.class,PlasmaActivity.class,SplashScreen_BeginActivity.class,WheelActivity.class,RoundCornerActivity.class,
 				HorizontalListViewActivity.class,HorListviewActivity.class,CustomRadioButtonActivity.class,CircleCornerActivity.class,
 				MuiltGradeListActivity.class,CustomSpinnerActivity.class,MuiltTableActivity.class,LeftRightSlideActivity.class,
-				FlingGalleryActivity.class};
+				FlingGalleryActivity.class,TestWeiXinWhatsNewActivity.class};
 		CoverFlowImageAdapter imageAdapter = new CoverFlowImageAdapter(this,mImageIds,target);
 		cf.setAdapter(imageAdapter);
 		// cf.setAlphaMode(false);
